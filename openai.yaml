@@ -1,0 +1,13 @@
+interface:
+  display_name: 从想法到上线的软件开发
+  short_description: 通过主动提问完善产品，指导技术选型、分阶段开发测试及部署上线
+  default_prompt: 我有一个软件想法，请引导我从需求澄清、功能设计、技术选型、UI、开发测试到部署上线，一步一步完成。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
